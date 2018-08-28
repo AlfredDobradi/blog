@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Theme on My New Hugo Site</title>
-    <link>http://example.org/tags/theme/</link>
-    <description>Recent content in Theme on My New Hugo Site</description>
+    <title>Theme on barvey hirdman @ brvy.win</title>
+    <link>http://blog.brvy.win/tags/theme/</link>
+    <description>Recent content in Theme on barvey hirdman @ brvy.win</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Aug 2018 16:34:06 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.brvy.win/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Post</title>
-      <link>http://example.org/posts/first-post/</link>
+      <link>http://blog.brvy.win/posts/first-post/</link>
       <pubDate>Tue, 28 Aug 2018 16:34:06 +0100</pubDate>
       
-      <guid>http://example.org/posts/first-post/</guid>
+      <guid>http://blog.brvy.win/posts/first-post/</guid>
       <description>Yo, this is the first post on this blog which will hopefully get better over time. I created it because recently I&amp;rsquo;ve been feeling the itch to write about the shit that&amp;rsquo;s happening to me and to share some shit I see/hear/do.
 The theme is very minimalistic, my own creation - even though it&amp;rsquo;s mostly just a decomposition if anything. If y&amp;rsquo;all like it, head over to https://vcs.brvy.win/barveyhirdman/dmdm where you can get it.</description>
     </item>
