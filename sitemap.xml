@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.brvy.win/posts/theme-philosophy/</loc>
+    <lastmod>2018-08-29T10:35:14+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.brvy.win/posts/first-post/</loc>
     <lastmod>2018-08-28T16:34:06+01:00</lastmod>
   </url>
@@ -15,7 +20,7 @@
   
   <url>
     <loc>http://blog.brvy.win/posts/</loc>
-    <lastmod>2018-08-28T16:34:06+01:00</lastmod>
+    <lastmod>2018-08-29T10:35:14+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -27,13 +32,13 @@
   
   <url>
     <loc>http://blog.brvy.win/tags/theme/</loc>
-    <lastmod>2018-08-28T16:34:06+01:00</lastmod>
+    <lastmod>2018-08-29T10:35:14+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.brvy.win/</loc>
-    <lastmod>2018-08-28T16:34:06+01:00</lastmod>
+    <lastmod>2018-08-29T10:35:14+01:00</lastmod>
     <priority>0</priority>
   </url>
   

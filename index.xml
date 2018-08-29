@@ -6,10 +6,19 @@
     <description>Recent content on barvey hirdman @ brvy.win</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 16:34:06 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 10:35:14 +0100</lastBuildDate>
     
 	<atom:link href="http://blog.brvy.win/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Theme Philosophy: DMDM</title>
+      <link>http://blog.brvy.win/posts/theme-philosophy/</link>
+      <pubDate>Wed, 29 Aug 2018 10:35:14 +0100</pubDate>
+      
+      <guid>http://blog.brvy.win/posts/theme-philosophy/</guid>
+      <description>The theme I&amp;rsquo;m using for this blog is very barebones. I&amp;rsquo;m sure there are existing themes like this for Hugo but when the thought of this blog formed in my head I had a few principles regarding how I want to create and maintain it. The first - and most important - point was it all has to be done by me - well all except Hugo - which includes the theme as well.</description>
+    </item>
     
     <item>
       <title>First Post</title>
