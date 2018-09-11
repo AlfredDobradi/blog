@@ -6,10 +6,20 @@
     <description>Recent content in Posts on barvey hirdman @ brvy.win</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 10:35:14 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 12:23:08 +0100</lastBuildDate>
     
 	<atom:link href="http://blog.brvy.win/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Game Challenge(?)</title>
+      <link>http://blog.brvy.win/posts/game-challenge/</link>
+      <pubDate>Tue, 11 Sep 2018 12:23:08 +0100</pubDate>
+      
+      <guid>http://blog.brvy.win/posts/game-challenge/</guid>
+      <description>The last few weeks I&amp;rsquo;ve been toying with the idea of making a game quite a lot. From time to time I have this thing but I usually don&amp;rsquo;t act on it. However&amp;hellip; this time I started thinking about the concept I have in mind and I feel like it&amp;rsquo;s something I could do and it would be cool as heck.
+Without saying too much about the game and the concept (although some people I&amp;rsquo;ve already told) it&amp;rsquo;s relatively simple graphics-wise as it would only use plain GUI elements (text boxes, frames, charts, etc) like an accounting program.</description>
+    </item>
     
     <item>
       <title>Theme Philosophy: DMDM</title>

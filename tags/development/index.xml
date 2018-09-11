@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on barvey hirdman @ brvy.win</title>
-    <link>http://blog.brvy.win/tags/news/</link>
-    <description>Recent content in News on barvey hirdman @ brvy.win</description>
+    <title>Development on barvey hirdman @ brvy.win</title>
+    <link>http://blog.brvy.win/tags/development/</link>
+    <description>Recent content in Development on barvey hirdman @ brvy.win</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Sep 2018 12:23:08 +0100</lastBuildDate>
     
-	<atom:link href="http://blog.brvy.win/tags/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.brvy.win/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>http://blog.brvy.win/posts/game-challenge/</guid>
       <description>The last few weeks I&amp;rsquo;ve been toying with the idea of making a game quite a lot. From time to time I have this thing but I usually don&amp;rsquo;t act on it. However&amp;hellip; this time I started thinking about the concept I have in mind and I feel like it&amp;rsquo;s something I could do and it would be cool as heck.
 Without saying too much about the game and the concept (although some people I&amp;rsquo;ve already told) it&amp;rsquo;s relatively simple graphics-wise as it would only use plain GUI elements (text boxes, frames, charts, etc) like an accounting program.</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>http://blog.brvy.win/posts/first-post/</link>
-      <pubDate>Tue, 28 Aug 2018 16:34:06 +0100</pubDate>
-      
-      <guid>http://blog.brvy.win/posts/first-post/</guid>
-      <description>Yo, this is the first post on this blog which will hopefully get better over time. I created it because recently I&amp;rsquo;ve been feeling the itch to write about the shit that&amp;rsquo;s happening to me and to share some shit I see/hear/do.
-The theme is very minimalistic, my own creation - even though it&amp;rsquo;s mostly just a decomposition if anything. If y&amp;rsquo;all like it, head over to https://vcs.brvy.win/barveyhirdman/dmdm where you can get it.</description>
     </item>
     
   </channel>
