@@ -1,0 +1,6 @@
+**
+** Game servers
+** Private means password protected - if I don't know you you won't get in.
+**
+
+Terraria - private: steve.brvy.win:7777 
