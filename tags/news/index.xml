@@ -6,10 +6,20 @@
     <description>Recent content in News on barvey hirdman @ brvy.win</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Sep 2018 12:23:08 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 11:06:23 +0100</lastBuildDate>
     
 	<atom:link href="http://blog.brvy.win/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Game Challenge(?) - continued</title>
+      <link>http://blog.brvy.win/posts/game-challenge-2/</link>
+      <pubDate>Wed, 12 Sep 2018 11:06:23 +0100</pubDate>
+      
+      <guid>http://blog.brvy.win/posts/game-challenge-2/</guid>
+      <description>I&amp;rsquo;ve been thinking about how to actually do the game challenge in term of time restrictions and feasibility and my best idea so far is to have a 36 hour window in which I start with 12 hours of programming (and streaming), then do something else for 12 hours (probably sleeping lol) and finish with another 12 hour session of writing the game.
+This would be good because: * I can take a break and sleep * I won&amp;rsquo;t have enough time to get ideas which result in rewriting the whole thing * It can still be handled as one event</description>
+    </item>
     
     <item>
       <title>Game Challenge(?)</title>
