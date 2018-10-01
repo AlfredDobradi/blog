@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.brvy.win/posts/postfix-dkim/</loc>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.brvy.win/posts/game-challenge-2/</loc>
     <lastmod>2018-09-12T11:06:23+01:00</lastmod>
   </url>
@@ -29,6 +34,18 @@
   </url>
   
   <url>
+    <loc>http://blog.brvy.win/tags/dkim/</loc>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.brvy.win/tags/email/</loc>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.brvy.win/tags/game/</loc>
     <lastmod>2018-09-12T11:06:23+01:00</lastmod>
     <priority>0</priority>
@@ -41,8 +58,20 @@
   </url>
   
   <url>
+    <loc>http://blog.brvy.win/tags/postfix/</loc>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.brvy.win/posts/</loc>
-    <lastmod>2018-09-12T11:06:23+01:00</lastmod>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.brvy.win/tags/systems/</loc>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,7 +89,7 @@
   
   <url>
     <loc>http://blog.brvy.win/</loc>
-    <lastmod>2018-09-12T11:06:23+01:00</lastmod>
+    <lastmod>2018-10-01T17:28:32+01:00</lastmod>
     <priority>0</priority>
   </url>
   

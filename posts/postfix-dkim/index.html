@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+        <meta property="og:title" content="Postfix &#43; Dkim - barvey hirdman @ brvy.win">
+        <meta property="og:description" content="Recently I decided to give another try installing and maintaining my own mail server. Installing Postfix and Dovecot wasn&rsquo;t a huge issue although I did struggled a bit with SASL but oh well, works fine now. After being able to receive and send emails, I decided to move on and install the additional services, DKIM being the first.
+Configuring DKIM is not hard especially if it&rsquo;s a simple use case as mine.">
+
+        <meta name="twitter:title" content="Postfix &#43; Dkim - barvey hirdman @ brvy.win">
+        <meta name="twitter:description" content="Recently I decided to give another try installing and maintaining my own mail server. Installing Postfix and Dovecot wasn&rsquo;t a huge issue although I did struggled a bit with SASL but oh well, works fine now. After being able to receive and send emails, I decided to move on and install the additional services, DKIM being the first.
+Configuring DKIM is not hard especially if it&rsquo;s a simple use case as mine.">
+    
+
+    <meta property="og:image" content="http://blog.brvy.win/brvy.png">
+    <meta property="og:url" content="http://blog.brvy.win/posts/postfix-dkim/">
+
+    <meta name="twitter:image" content="http://blog.brvy.win/brvy.png">
+    <meta name="twitter:url" content="http://blog.brvy.win/posts/postfix-dkim/">
+    <meta name="twitter:card" content="summary">
+
+    <title>
+            Postfix &#43; Dkim - barvey hirdman @ brvy.win
+    </title>
+
+    
+    <link rel="stylesheet" href="/scss/app.min.1cf2fdb8813c61c09d24008db15739f20e0db70282e2c261e64bbde0ff757bcb.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+    
+    <body>
+    <header>
+        <h1><a href="http://blog.brvy.win">barvey hirdman @ brvy.win</a></h1>
+    </header>
+
+
+<section id="articles">
+	<article>
+        <h3>Postfix &#43; Dkim</h3>
+        <div class="meta">
+            <time datetime="2018-10-01 17:28:32 &#43;0100 IST">2018-10-01 17:28</time>
+            
+            <div class="tags">
+                Tags:
+                <a href="/tags/systems">systems</a>, <a href="/tags/email">email</a>, <a href="/tags/postfix">postfix</a>, <a href="/tags/dkim">dkim</a></div>
+            
+        </div>
+
+		<p>Recently I decided to give another try installing and maintaining my own mail server. Installing Postfix and Dovecot wasn&rsquo;t a huge issue although I did struggled a bit with SASL but oh well, works fine now. After being able to receive and send emails, I decided to move on and install the additional services, DKIM being the first.</p>
+
+<p>Configuring DKIM is not hard especially if it&rsquo;s a simple use case as mine. I have one MTA handling one domain, means a line in each OpenDKIM tables and a single DNS record. I did that in a few minutes, sent the email and&hellip; nothing. No DKIM headers. I thought I messed something up so I recreated everything from scratch. Still nothing. I checked the mail logs to see if there&rsquo;s some error but no, it looks like the milter is not even being executed.</p>
+
+<p>Since I couldn&rsquo;t find a solution anywhere - in hindsight I might&rsquo;ve just missed it - I started looking at the configs. Since there&rsquo;s very few things I changed for Postfix, I was almost sure that can&rsquo;t be the issue so I moved on to the OpenDKIM config reading the documentation carefully. After some time I found my issue. By default OpenDKIM is set to verify incoming emails but not sign them. This can be changed with the <code>Mode</code> setting.</p>
+
+<p>So after changing</p>
+
+<pre><code>Mode    v
+</code></pre>
+
+<p>to</p>
+
+<pre><code>Mode    sv
+</code></pre>
+
+<p>I tried again. Ta-da, it works!</p>
+
+
+    </article>
+</section>
+
+<footer>
+    <hr />
+
+    
+    <div class="menu">
+    Menu:
+        
+            <a href="/public.gpg" target="_blank">GPG</a>
+        
+             | <a href="/servers.txt" target="_blank">Servers</a>
+        
+    </div>
+    
+
+    <div class="tags">
+    Popular tags:
+        <a href="/tags/news">news</a>, <a href="/tags/development">development</a>, <a href="/tags/game">game</a>, <a href="/tags/theme">theme</a>, <a href="/tags/dkim">dkim</a>, <a href="/tags/email">email</a>, <a href="/tags/postfix">postfix</a>, <a href="/tags/systems">systems</a></div>
+
+    barvey hirdman - <time datetime="2018-10-01 17:46:48.119747164 &#43;0100 IST m=&#43;0.059934566">2018</time> - <a href="https://www.gohugo.io" target="_blank">Hugo</a> - <a href="https://vcs.brvy.win/barveyhirdman/dmdm" target="_blank">DMDM</a> 
+</footer>
+
+</body>
+</html>
